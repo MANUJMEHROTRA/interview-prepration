@@ -1,0 +1,109 @@
+Problem Statement:
+  Bussiness Objective: Increase the revenue/ number of people spending time on FB
+  Data: 
+    labeled or not
+  Features To Support:
+    like/Dislike/comments etc.
+  Constraints:
+    Edge Devices/ Server/ Cloud computing/Automatic Improvement
+  Scale Of System:
+    How many users
+    growth rate
+  performance:
+    accuracy vs latency tradeoff, batch/real-time prediction
+
+Translating to ML Problem:
+  Converting Bussiness Objective to ML Objective
+  Define Input and output Data
+  Define the type of Model
+
+
+Data:
+  Data Source: volume/Velocity and varacity
+  Data Storage: No-SQL/SQL/S3 buckets/Vector Db
+  ETL:
+    type of Data:
+      Sturucture: One hot encoding/ Imputation/ dropping/ de-duping/Feature Scaling/ Standarization/ 
+      Un-strucuture: embedding
+
+Model Development:
+  Model Selection:
+    Esablish Baseline:
+    Experiment with Simple Model: 
+      Logistic Regression
+    Switch to Complex Model:
+      Ensembel
+      Stacking
+      Boosting models
+  model Training:
+    Construcing DataSet:
+      encoding Strategy
+      Sampling Strategy
+      split Data
+      class-rebalance
+      
+    Loss Function:
+    Training from sratch vs Fine-Tuning:
+    Distributed Training: 
+      Data Distribution
+      Compute Distribution
+    loss Function:
+    Optimizer:
+      Adam
+      RMSprop
+      SGD
+    Infra:
+      Specification
+      time-required for Training
+    Regularization:
+
+    Model Size:
+    Number of Parameters:
+
+
+  Model Evaluation:
+    Online:
+      Bussiness KPIs
+    Offline:
+      precion/recall/f1
+
+
+  Model Serving and Deployment:
+    Model Compression:
+      Quantization
+      Knowledge DIstillation
+    Deploymnet/Compute Device:
+      Server:
+        Cloud
+        Native
+      Edge Device:
+        mobile
+        laptop
+  
+
+  Inference pipeline:
+    Online
+    Batch 
+  
+  Test in Production:
+    Shadow Deployment
+    AB Testing
+  
+  Monitoring:
+    CPU usage
+    memory usage
+    Fail
+    Retraining pipeline
+
+
+
+
+    
+
+
+
+  
+
+    
+
+
